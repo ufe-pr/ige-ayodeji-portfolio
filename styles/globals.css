@@ -1,3 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .page-side-padding {
+    @apply px-5 md:px-7 lg:px-10;
+  }
+}
+
 html,
 body {
   padding: 0;
