@@ -3,4 +3,5 @@ export type Project = {
   imageAlt?: string;
   title: string;
   subtitle: string;
+  link?: string;
 };

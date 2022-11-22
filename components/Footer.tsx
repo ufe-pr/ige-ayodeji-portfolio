@@ -15,9 +15,9 @@ export const Footer = () => {
         <Logo />
       </div>
       <div className='mt-5 max-w-4xl w-full mx-auto text-center'>
-        <SocialIcon link='' name='Twitter' />
-        <SocialIcon link='' name='Dribble' />
-        <SocialIcon link='' name='Medium' />
+        <SocialIcon link='https://twitter.com/od_ezek' name='Twitter' />
+        <SocialIcon link='http://www.behance.com/ayodejiezekiel1' name='Behance' />
+        <SocialIcon link='https://www.linkedin.com/in/ayodeji-ige/' name='Linkedin' />
       </div>
     </footer>
   );

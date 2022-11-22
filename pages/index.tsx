@@ -6,45 +6,20 @@ import { Header } from "../components/Header";
 import { Hero } from "../components/Hero";
 import { ProjectCardList } from "../components/ProjectCardList";
 import { Project } from "../components/types";
-import styles from "../styles/Home.module.css";
+import projectsJson from "../projects.json"
 
 const Home: NextPage = () => {
-  const projects: Project[] = [
-    {
-      title: "CollarGig",
-      subtitle: "Freelancers Gig Platform",
-      image: "https://tayotane.netlify.app/Resources/img/Works/Collargig.png",
-      imageAlt: "Screenshot of homepage",
-    },
-    {
-      title: "CollarGig",
-      subtitle: "Freelancers Gig Platform",
-      image: "https://tayotane.netlify.app/Resources/img/Works/Collargig.png",
-      imageAlt: "Screenshot of homepage",
-    },
-    {
-      title: "CollarGig",
-      subtitle: "Freelancers Gig Platform",
-      image: "https://tayotane.netlify.app/Resources/img/Works/Collargig.png",
-      imageAlt: "Screenshot of homepage",
-    },
-    {
-      title: "CollarGig",
-      subtitle: "Freelancers Gig Platform",
-      image: "https://tayotane.netlify.app/Resources/img/Works/Collargig.png",
-      imageAlt: "Screenshot of homepage",
-    },
-  ];
+  const projects: Project[] = projectsJson;
   return (
     <div className="relative">
       <Head>
-        <title>Create Next App</title>
+        <title>Ige Ayodeji&apos;s portfolio</title>
         <meta name='description' content="Ige Ayodeji's portfolio" />
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <Header />
       <Hero />
-      <section className='page-side-padding py-8'>
+      <section id="works" className='page-side-padding py-8'>
         <ProjectCardList projects={projects} />
       </section>
       <Footer />
