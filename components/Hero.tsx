@@ -36,7 +36,7 @@ export const Hero = () => {
             only <EmSpan>solve problems</EmSpan>, but{" "}
           </TitleLine>
           <TitleLine className='[animation-delay:600ms]'>
-            also creates an <EmSpan>easy</EmSpan> and{" "}
+            It also creates an <EmSpan>easy</EmSpan> and{" "}
           </TitleLine>
           <TitleLine className='[animation-delay:900ms]'>
             enjoyable <EmSpan>user experience</EmSpan>.
